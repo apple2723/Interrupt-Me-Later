@@ -20,7 +20,6 @@ Interrupt Me Later saves that mental context so users can return to their work w
 - Choose between a quick restart and a detailed recap
 - View previous saved sessions
 - Delete old checkpoints
-- Works without a paid AI API
 
 ## How It Works
 
@@ -37,4 +36,4 @@ The website looks for phrases related to completed work, errors, next steps, que
 ### Input
 
 ```text
-I am building a hackathon website in app.py. I finished the homepage and added the form. The save button is connected, but the session data is not appearing in history. Next I need to check whether storage.py is writing to sessions.json.
+I am working on a research presentation. I finished organizing my sources and drafted the introduction. I am stuck on how to explain the main data clearly. Next I need to create the results slide and decide which graph to use.
