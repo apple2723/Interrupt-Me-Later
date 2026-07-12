@@ -192,10 +192,7 @@ with pause_tab:
         "Current work context",
         height=260,
         placeholder=(
-            "Example: I finished the image upload and preview in app.py. "
-            "The Analyze button is connected, but the response causes an "
-            "invalid JSON error. Next I need to print the raw response "
-            "before calling response.json()."
+            "Example: I am working on a research presentation. I finished organizing my sources and drafted the introduction. I am stuck on how to explain the main data clearly. Next I need to create the results slide and decide which graph to use."
         ),
     )
 
