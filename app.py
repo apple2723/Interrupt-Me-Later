@@ -302,7 +302,7 @@ with resume_tab:
                     st.rerun()
 
 with about_tab:
-    st.subheader("Why this counts as automation")
+    st.subheader("How does this site work?")
 
     st.write(
         "The website takes unstructured notes and automatically "
@@ -318,7 +318,6 @@ with about_tab:
         - Progress words such as **finished**, **built**, **fixed**, and **working**
         - Blocker words such as **error**, **stuck**, **broken**, and **not working**
         - Next-step phrases such as **next**, **need to**, and **should**
-        - File names such as `app.py`, `index.html`, and `data.json`
         - Questions and unfinished decisions
         """
     )
@@ -326,7 +325,6 @@ with about_tab:
     st.subheader("Privacy")
 
     st.write(
-        "This version does not use an external AI API. The analysis "
-        "happens through local Python rules, and saved sessions remain "
-        "inside the project's data file."
+        "All analysis happens through local Python rules, and saved sessions remain "
+        "inside the project's data file!"
     )
